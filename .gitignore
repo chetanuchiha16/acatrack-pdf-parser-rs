@@ -1,0 +1,20 @@
+# Rust Build Artifacts
+/target
+Cargo.lock
+
+# Python Build Artifacts
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# OS/IDE configs
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
