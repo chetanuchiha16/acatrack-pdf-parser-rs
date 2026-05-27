@@ -3,6 +3,10 @@ name = "acatrack_rust"
 version = "0.1.0"
 edition = "2024"
 description = "High-performance Rust PDF parser for AcaTrack, bridged to Python via PyO3"
+license = "MIT"
+repository = "https://github.com/chetanuchiha16/acatrack-pdf-parser-rs"
+homepage = "https://github.com/chetanuchiha16/acatrack-pdf-parser-rs"
+documentation = "https://github.com/chetanuchiha16/acatrack-pdf-parser-rs"
 
 [lib]
 name = "acatrack_rust"

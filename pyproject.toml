@@ -3,11 +3,27 @@ requires = ["maturin>=1.12,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "acatrack_rust"
+name = "acatrack-pdf-parser-rs"
+description = "High-performance, native parallel Rust PDF parser engine for VTU provisional results"
+readme = "README.md"
 requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Chetan Kishor C G", email = "chetan16ck@gmail.com" }
+]
+keywords = ["vtu", "pdf", "parser", "rust", "pyo3", "concurrency", "rayon"]
 classifiers = [
     "Programming Language :: Rust",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/chetanuchiha16/acatrack-pdf-parser-rs"
+Repository = "https://github.com/chetanuchiha16/acatrack-pdf-parser-rs"
+Bug-Tracker = "https://github.com/chetanuchiha16/acatrack-pdf-parser-rs/issues"
+
