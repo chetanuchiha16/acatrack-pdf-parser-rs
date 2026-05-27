@@ -99,9 +99,6 @@ if record:
 
 ---
 
-## 🤝 Contributing
-Contributions are highly welcome! Feel free to open issues or submit Pull Requests to optimize performance further or support more PDF layouts.
-
 ---
 
 ## 📄 License
