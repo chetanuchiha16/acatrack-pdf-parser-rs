@@ -1,5 +1,8 @@
 # ⚡ acatrack-pdf-parser-rs
 
+[![PyPI version](https://img.shields.io/pypi/v/acatrack-pdf-parser-rs.svg)](https://pypi.org/project/acatrack-pdf-parser-rs/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 A high-performance, native Rust PDF parsing engine designed specifically to extract structured academic student records and provisional exam marks. Bridged seamlessly to Python via **PyO3** and **Maturin**, it leverages multi-threaded CPU parallel processing via **Rayon** to slash batch ingestion processing times.
 
 Developed as the core ingestion engine of **[AcaTrack](https://github.com/chetanuchiha16/acatrack)**, this parser solves complex visual layout alignment issues mathematically and runs **38.4x faster** than traditional sequential Python parsers.
@@ -48,12 +51,19 @@ graph TD
 
 ## 📦 Getting Started
 
-### Prerequisites
-* **Rust Toolchain**: `rustup`, `rustc`, `cargo` (Latest stable edition)
-* **Python**: `3.8+`
-* **Maturin**: `pip install maturin`
+### 📥 Installation (Pre-compiled Binaries)
+You can install the compiled native extension directly from PyPI. **No Rust compiler or local toolchain required!**
 
-### Local Development & Setup
+```bash
+pip install acatrack-pdf-parser-rs
+# or via uv
+uv add acatrack-pdf-parser-rs
+```
+
+### 🛠️ Local Development & Setup (From Source)
+If you wish to modify the Rust core or compile it locally from source:
+
+* **Prerequisites**: `rustup`, `rustc`, `cargo` (Latest stable edition) and `pip install maturin`
 
 1. **Clone the repository**:
    ```bash
